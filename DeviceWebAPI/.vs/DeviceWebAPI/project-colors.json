@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a97b4ab4-3c50-43ec-a2a4-3d56e946c8cc": {
+      "ProjectGuid": "a97b4ab4-3c50-43ec-a2a4-3d56e946c8cc",
+      "DisplayName": "DeviceWebAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

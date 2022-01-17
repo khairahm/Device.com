@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card text-center" style="width: 100%;  height: 40px;background-color: rgb(215, 215, 223);padding:2px;">
+          <h5 style="margin-top: 5px;" class="card-title">Related Devices</h5></div>
+        <div tr *ngFor= "let dev of DevicesArray" class="container" style="padding: 5px;">
+    
+    
+            <div class="card" style="width: 100%; height: 76px;background-color: rgb(215, 215, 223);  ">
+               
+                
+                    <div class="row">
+                      
+                        
+                        <div class="col-4">
+                          <svg *ngIf= "dev.DeviceType=='Computer'" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16" style="margin-top: 12px; margin-left:7px;">
+                            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+                          </svg>
+    
+                          <svg *ngIf= "dev.DeviceType=='Tablet'" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-tablet-fill" viewBox="0 0 16 16" style="margin-top: 12px">
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                          </svg>
+                          <svg *ngIf= "dev.DeviceType=='Mobile'" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16" style="margin-top: 12px">
+                            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                          </svg>
+                        </div>
+                        <div class="col-8">
+                          <div class="card-body">
+                              <h5 class="card-title">{{dev.Name}}</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Status: {{" "+dev.Status}}</h6>
+                            </div></div>
+    
+                      
+                     
+                      
+                      
+                   
+                    </div>
+                   
+                  </div>
+                  
+               
+               
+               
+              
+          
+         
+      
+      </div>
+      </div>
+      <div class="col">
+        <div class="card text-left" style="width:100%;height:100%;">
+          <div class="card-header" style="background-color:rgb(215, 215, 223)">
+            <h5 style="margin-top: 5px;" class="card-title">Details: {{" "+Name}}</h5>
+          </div>
+          
+          <div class="card-body">
+           
+            <p class="card-text">Status: {{" "+Status}}</p>
+            <p class="card-text">Temperature: {{" "+Temperature+ " Celsius"}}</p>
+            <p class="card-text">Usage:</p>
+            <img [src]="UsagePhotoPath" height="250px;" width = 300px;>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>

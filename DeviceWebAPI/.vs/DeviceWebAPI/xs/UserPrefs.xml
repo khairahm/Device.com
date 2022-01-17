@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A97B4AB4-3C50-43EC-A2A4-3D56E946C8CC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceWebAPI/appsettings.json">
+    <Files>
+      <File FileName="DeviceWebAPI/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="DeviceWebAPI/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DeviceWebAPI" expanded="True">
+            <Node name="DeviceWebAPI" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Images" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DeviceWebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
